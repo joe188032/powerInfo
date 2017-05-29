@@ -102,3 +102,7 @@ loadPower <- function(building, dateFrom, dateTo)
 carsplot = function(){
   plot(cars)
 }
+
+powersummary = function(powerdata,colnum){
+   summary(powerdata[[colnum]])
+}
