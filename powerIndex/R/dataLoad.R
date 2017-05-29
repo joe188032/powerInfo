@@ -98,3 +98,7 @@ loadPower <- function(building, dateFrom, dateTo)
   
   return(power)
 }
+
+carsplot = function(){
+  plot(cars)
+}
